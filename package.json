@@ -1,0 +1,22 @@
+{
+  "name": "projeto-n2",
+  "version": "1.0.0",
+  "description": "Projeto N2 Node.js com Mocha e Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "sinon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
+  }
+}
