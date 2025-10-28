@@ -1,8 +1,43 @@
 {
   "usuarios": [
-    { "id": 1, "nome": "Júlia", "email": "julia@exemplo.com" }
+    {
+      "id": 1,
+      "nome": "Júlia",
+      "email": "julia@exemplo.com"
+    },
+    {
+      "id": 2,
+      "nome": "Maria User",
+      "role": "user",
+      "isActive": true
+    }
   ],
   "posts": [
-    { "id": 101, "titulo": "Primeiro Post", "autorId": 1 }
+    {
+      "id": 1,
+      "titulo": "Primeiro Post",
+      "corpo": "Conteúdo do post 1.",
+      "autorId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Segundo Post",
+      "corpo": "Conteúdo do post 2.",
+      "autorId": 2
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 101,
+      "postId": 1,
+      "texto": "Comentário para o Post 1.",
+      "autor": "Visitante"
+    },
+    {
+      "id": 102,
+      "postId": 1,
+      "texto": "Segundo comentário para o Post 1.",
+      "autor": "Outro Visitante"
+    }
   ]
 }
