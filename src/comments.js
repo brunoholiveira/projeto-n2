@@ -23,7 +23,7 @@ async function getCommentsByPostId(postId) {
     if (!postId || typeof postId !== 'number') {
         throw new Error('ID do Post é obrigatório e deve ser um número.');
     }
-    
+
     try {
         // Usa o objeto params para adicionar 'postId=X' na URL
         const response = await axios.get(`${BASE_URL}/comments`, {
@@ -38,12 +38,12 @@ async function getCommentsByPostId(postId) {
 }
 
 // Função para criar um novo comentário.
- /** 
-  * @param {Object} newCommentData Os dados do novo comentário.
+/** 
+ * @param {Object} newCommentData Os dados do novo comentário.
 */
 async function createComment(newCommentData) {
     if (!newCommentData || !newCommentData.body) {
-         throw new Error('Os dados do comentário (body) são obrigatórios.');
+        throw new Error('Os dados do comentário (body) são obrigatórios.');
     }
 
     try {

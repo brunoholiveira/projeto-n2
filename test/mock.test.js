@@ -5,7 +5,7 @@ const request = require('chai-http'); // Usado para demonstração, mas o foco �
 
 // Simulação de um Módulo de Serviço que faz chamadas HTTP
 const APIService = {
-    getPosts: function(userId) {
+    getPosts: function (userId) {
         // Simula uma chamada real. Esta função será "stubada"
         return new Promise(resolve => {
             resolve([{ id: 1, title: 'Real Post' }]);

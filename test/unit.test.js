@@ -83,7 +83,7 @@ describe('Funções Unitárias', () => {
         it('12. Um post fake criado não deve ser nulo (not.be.null)', () => {
             const post = posts.createFakePost('Teste Should', 'Corpo');
             // Verifica se o valor de 'post' existe (não é null ou undefined).
-            should.exist(post, 'O post deve existir'); 
+            should.exist(post, 'O post deve existir');
         });
 
         it('13. O objeto de usuário deve ter uma chave "id, name, isActive, role" (have.keys)', () => {

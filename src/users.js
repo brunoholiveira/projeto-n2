@@ -18,7 +18,7 @@ function findUserById(id) { // Encontra um usuário pelo ID
         throw new Error(`Usuário com ID ${id} não encontrado.`);
     }
     return user;
-} 
+}
 
 module.exports = { // Exporta as funções para uso em testes
     getUsers,
