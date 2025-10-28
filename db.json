@@ -1,0 +1,8 @@
+{
+  "usuarios": [
+    { "id": 1, "nome": "Júlia", "email": "julia@exemplo.com" }
+  ],
+  "posts": [
+    { "id": 101, "titulo": "Primeiro Post", "autorId": 1 }
+  ]
+}
